@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var avaterImageView: UIImageView!
+//    @IBOutlet weak var loginButton: UIButton!
+    
+    @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.avaterImageView.layer.cornerRadius = avaterImageView.frame.size.width/2
+        self.avaterImageView.layer.masksToBounds = true
+        self.loginButton.backgroundColor = UIColor.orangeColor()
+        self.loginButton.layer.cornerRadius = 2
     }
 
     override func didReceiveMemoryWarning() {
