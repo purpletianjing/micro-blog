@@ -44,11 +44,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="邮箱/手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="okX-uF-I2V">
-                                <rect key="frame" x="26" y="198" width="268" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpL-hh-WMX" userLabel="LoginButton">
                                 <rect key="frame" x="36" y="280" width="248" height="30"/>
                                 <state key="normal" title="登录">
@@ -64,6 +59,11 @@
                                 <rect key="frame" x="123" y="325" width="75" height="30"/>
                                 <state key="normal" title="无密码登录"/>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="邮箱/手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="okX-uF-I2V">
+                                <rect key="frame" x="26" y="198" width="268" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -96,6 +96,8 @@
                     <connections>
                         <outlet property="avaterImageView" destination="bgL-c5-Rzy" id="oc3-cI-RhR"/>
                         <outlet property="loginButton" destination="hpL-hh-WMX" id="YJS-Eu-Mtm"/>
+                        <outlet property="passwordTextField" destination="pju-eZ-5Kk" id="GGZ-2R-xne"/>
+                        <outlet property="userNameTextField" destination="okX-uF-I2V" id="iFr-lu-A2J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
