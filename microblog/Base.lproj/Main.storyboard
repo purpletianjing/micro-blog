@@ -30,6 +30,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3H6-uJ-1MJ">
+                                <rect key="frame" x="71" y="498" width="60" height="30"/>
+                                <state key="normal" title="注册账号"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x64-mS-drF">
                                 <rect key="frame" x="36" y="28" width="20" height="20"/>
                                 <constraints>
@@ -52,28 +56,36 @@
                                     <color key="titleShadowColor" red="0.72944833519999996" green="1" blue="0.98173609770000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3H6-uJ-1MJ">
-                                <rect key="frame" x="130" y="498" width="60" height="30"/>
-                                <state key="normal" title="注册账号"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xS-23-fde">
+                                <rect key="frame" x="196" y="498" width="53" height="30"/>
+                                <state key="normal" title="QQ登录"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoK-6h-dWD">
+                                <rect key="frame" x="123" y="325" width="75" height="30"/>
+                                <state key="normal" title="无密码登录"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="3H6-uJ-1MJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="55" id="5EW-t6-hN2"/>
                             <constraint firstItem="hpL-hh-WMX" firstAttribute="top" secondItem="pju-eZ-5Kk" secondAttribute="bottom" constant="20" id="CzO-Ft-I0X"/>
+                            <constraint firstItem="JoK-6h-dWD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GdP-oV-exI"/>
                             <constraint firstItem="x64-mS-drF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="IHZ-g5-OLI"/>
                             <constraint firstItem="bgL-c5-Rzy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LX1-f2-zb7"/>
                             <constraint firstItem="bgL-c5-Rzy" firstAttribute="top" secondItem="x64-mS-drF" secondAttribute="bottom" constant="20" id="TLo-wa-Cvl"/>
                             <constraint firstItem="hpL-hh-WMX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="TuZ-Fx-fmc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="pju-eZ-5Kk" secondAttribute="trailing" constant="10" id="Wxs-Ue-dqX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hpL-hh-WMX" secondAttribute="trailing" constant="20" id="X4R-92-vIz"/>
+                            <constraint firstItem="JoK-6h-dWD" firstAttribute="top" secondItem="hpL-hh-WMX" secondAttribute="bottom" constant="15" id="X8H-On-z97"/>
                             <constraint firstAttribute="trailingMargin" secondItem="okX-uF-I2V" secondAttribute="trailing" constant="10" id="eaj-f5-Lzv"/>
                             <constraint firstItem="pju-eZ-5Kk" firstAttribute="leading" secondItem="okX-uF-I2V" secondAttribute="leading" id="hyo-Vb-h6c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5xS-23-fde" secondAttribute="trailing" constant="55" id="o8v-20-5AX"/>
                             <constraint firstItem="x64-mS-drF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="r3X-Qu-01Y"/>
                             <constraint firstItem="pju-eZ-5Kk" firstAttribute="top" secondItem="okX-uF-I2V" secondAttribute="bottom" constant="2" id="rjY-g3-VSm"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3H6-uJ-1MJ" secondAttribute="bottom" constant="40" id="rs7-0o-Nbf"/>
                             <constraint firstItem="okX-uF-I2V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="sth-pm-2di"/>
-                            <constraint firstItem="3H6-uJ-1MJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wUg-hI-OWe"/>
                             <constraint firstItem="okX-uF-I2V" firstAttribute="top" secondItem="bgL-c5-Rzy" secondAttribute="bottom" constant="40" id="x9E-qD-3aE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5xS-23-fde" secondAttribute="bottom" constant="40" id="zoA-Cu-wbW"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
