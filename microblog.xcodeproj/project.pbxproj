@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A08D26A61D50E2D000917A0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D26A51D50E2D000917A0A /* LoginViewController.swift */; };
 		A0C3127D1D4E38A70088353B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3127C1D4E38A70088353B /* AppDelegate.swift */; };
 		A0C3127F1D4E38A70088353B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3127E1D4E38A70088353B /* ViewController.swift */; };
 		A0C312821D4E38A70088353B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C312801D4E38A70088353B /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A08D26A51D50E2D000917A0A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A0C312791D4E38A70088353B /* microblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C3127C1D4E38A70088353B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C3127E1D4E38A70088353B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				A0C312831D4E38A70088353B /* Assets.xcassets */,
 				A0C312851D4E38A70088353B /* LaunchScreen.storyboard */,
 				A0C312881D4E38A70088353B /* Info.plist */,
+				A08D26A51D50E2D000917A0A /* LoginViewController.swift */,
 			);
 			path = microblog;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08D26A61D50E2D000917A0A /* LoginViewController.swift in Sources */,
 				A0C3127F1D4E38A70088353B /* ViewController.swift in Sources */,
 				A0C3127D1D4E38A70088353B /* AppDelegate.swift in Sources */,
 			);
@@ -390,6 +394,7 @@
 				A0C312981D4E38A70088353B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0C312991D4E38A70088353B /* Build configuration list for PBXNativeTarget "microblogTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +403,7 @@
 				A0C3129B1D4E38A70088353B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

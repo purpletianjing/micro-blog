@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBAction func cancelUIButton(sender: UIButton) {
+        self.dismissViewControllerAnimated(false, completion: nil)
+    }
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var avaterImageView: UIImageView!
     @IBOutlet weak var passwordTextField: UITextField!
